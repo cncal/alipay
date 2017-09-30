@@ -50,7 +50,7 @@ class Alipay
         if (isset($data['trade_no'])) {
             $trade_no = trim($data['trade_no']);
             $RequestBuilder->setTradeNo($trade_no);
-        } elseif(isset($data['out_trade_no'])) {
+        } elseif (isset($data['out_trade_no'])) {
             $out_trade_no = trim($data['out_trade_no']);
             $RequestBuilder->setOutTradeNo($out_trade_no);
         }
@@ -71,7 +71,7 @@ class Alipay
         if (isset($data['trade_no'])) {
             $trade_no = trim($data['trade_no']);
             $RequestBuilder->setTradeNo($trade_no);
-        } elseif(isset($data['out_trade_no'])) {
+        } elseif (isset($data['out_trade_no'])) {
             $out_trade_no = trim($data['out_trade_no']);
             $RequestBuilder->setOutTradeNo($out_trade_no);
         }
@@ -103,7 +103,7 @@ class Alipay
         if (isset($data['trade_no'])) {
             $trade_no = trim($data['trade_no']);
             $RequestBuilder->setTradeNo($trade_no);
-        } elseif(isset($data['out_trade_no'])) {
+        } elseif (isset($data['out_trade_no'])) {
             $out_trade_no = trim($data['out_trade_no']);
             $RequestBuilder->setOutTradeNo($out_trade_no);
         }
@@ -127,7 +127,7 @@ class Alipay
         if (isset($data['trade_no'])) {
             $trade_no = trim($data['trade_no']);
             $RequestBuilder->setTradeNo($trade_no);
-        } elseif(isset($data['out_trade_no'])) {
+        } elseif (isset($data['out_trade_no'])) {
             $out_trade_no = trim($data['out_trade_no']);
             $RequestBuilder->setOutTradeNo($out_trade_no);
         }
